@@ -1,0 +1,48 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+}
+.footerclr{
+    color: aliceblue;
+}
+.footer-p-clr{
+    color: rgb(155, 162, 168);
+}
+.footer-blk-clr{
+  background-color: rgb(33, 34, 39);
+}
+.row-adjust{
+    border: ridge;
+    margin: 40px;
+}
+.row-adjust img{
+    width:"100%";
+}
+.clr{
+    background-color: rgba(245, 163, 163, 0.505);
+}
+.style-padding{
+    padding: 40px;
+    padding-top: 0px;
+}
+.width{
+    width: 100%;
+}
+.border-div{
+    border: ridge;
+    padding: 20px;
+
+}
+
+#tagline{
+   
+    margin-top: 80px;
+ }
+
+
+
+ body{
+    background-color: rgba(245, 163, 163, 0.505);
+ }

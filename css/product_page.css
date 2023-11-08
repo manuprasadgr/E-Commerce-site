@@ -1,0 +1,148 @@
+
+#navbar {
+    overflow: hidden;
+    background-color:white;
+  }
+
+ 
+
+  #ol{
+    list-style-type: none;
+  }
+
+  .header{
+
+    display: flex;
+    flex-direction: row;
+   margin-top: 70px;
+   margin-left: 150px;
+
+  }
+
+  .product-image{
+    display: flex;
+    flex-direction: column;
+   
+    padding: 10px;
+   
+  }
+
+  .main-image img{
+    width: 600px;
+    border: solid grey 1px;
+    padding: 3px;
+   }
+
+  .small-image{
+    display: flex;
+    flex-direction: row;
+  
+    
+  }
+
+ .small-image img{
+  width: 130px;
+  margin: 10px;
+  border: solid black 1px;
+  padding: 5px;
+ 
+ }
+
+
+ .product-content{
+
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 550px;
+
+ }
+
+ .product-content h1{
+  color: grey;
+  margin-bottom: 30px;
+ 
+ 
+ }
+
+ .product-content p{
+
+  font-size: 30px;
+  color: rgb(236, 109, 109);
+  font-family: 'Times New Roman', Times, serif;
+ }
+
+ .product-content div{
+
+  font-size: 20px;
+  color: rgba(41, 38, 38, 0.796);
+ }
+
+ .product-content button{
+  text-transform: capitalize;
+  width: 200px;
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 50px ;
+  background-color: black;
+  color: aliceblue;
+  border: solid grey;
+
+
+}
+
+.product-content input{
+  width: 50px;
+  height: 45px;
+  text-align: center;
+  margin-right: 20px;
+ 
+}
+
+.product-content input::placeholder{text-align: center;}
+
+.related-products{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(149, 141, 141, 0.125);
+  padding-bottom: 200px;
+
+}
+
+.tagline{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px ;
+  margin-bottom: 50px;
+
+  
+}
+
+.tagline h3{
+  font-family: 'Times New Roman', Times, serif;
+  text-transform:uppercase;
+  letter-spacing: 3px;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.708);
+ 
+  
+
+}
+
+.tagline h1{
+  text-transform: capitalize;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  color: rgba(0, 0, 0, 0.708);
+}
+
+
+
+
+
+  
+
+
+
+
+

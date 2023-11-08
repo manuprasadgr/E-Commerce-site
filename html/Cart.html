@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Shopping Cart</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Homepage.css">
+    <link rel="stylesheet" href="../css/Cart.css">
+</head>
+<body>
+
+
+
+
+  
+    <!-----------------------------------------------NAVBAR START------------------------------------------------------------------------------------------->
+
+    <div class="container-fluid ">
+      <nav id="navbar" class="navbar navbar-expand-sm fixed-top bg ">
+       
+        
+          <div class="container pt-3">
+              <ul class="navbar-nav">
+              <li>
+             <img class="logo" src="../images/logo.png">
+               </li>
+  
+               
+              </ul>
+             
+  
+                    <!-------------------------------------right sided nav-------------------------------------------------------------------------------------->
+              <ul class="navbar-nav right">
+  
+                <li class="nav-item">
+                  <a class="nav-link"  href="Homepage.html"><b> HOME</b></a>
+                </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="Homepage.html#product"><b>PRODUCT</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Product_list.html#men"><b>MEN</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="Product_list.html#women"><b>WOMEN</b></a>
+                </li>
+  
+           
+                <li class="nav-item  ">
+                  <a class="nav-link"  href="../html/Product_list.html">
+                    SEARCH</a>
+                </li>
+                <li class="nav-item">
+                  <a  class="nav-link" href="Product_list.html#offer">OFFER</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><b>$0.00</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Cart.html"><i class="fa fa-shopping-bag "></i></a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#"><i class='fa fa-user-edit'></i></a>
+                </li>
+              </ul>   
+          
+    
+        </nav>
+      </div>
+  
+      </div>
+  
+  
+      <!-------------------------------------------------------------NAVBAR  END---------------------------------------------------------------------------------> 
+  
+    <div class="cart-container mt-5">
+        <h1>Your Shopping Cart</h1>
+        <div class="cart-items">
+            <div class="cart-item">
+                <img id="cart-1" src="" alt="Product 1">
+                <div class="item-details">
+                    <h3 id="product-name"></h3>
+                    <p id="product-price"></p>
+                    <p id="count"></p>
+                    <button class="remove-item-btn">Remove</button>
+                </div>
+            </div>
+           
+        </div>
+        <div class="cart-total">
+            <h2></h2>
+            <button class="checkout-btn"><a href="shipping.html">Proceed to Checkout</a></button>
+        </div>
+    </div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script src="../js/Cart.js" ></script>
+
+
+
+</body>
+</html>

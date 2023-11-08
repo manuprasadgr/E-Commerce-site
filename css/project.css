@@ -1,0 +1,92 @@
+
+
+
+
+#navbar {
+    overflow: hidden;
+    background-color:white;
+  }
+
+#buy-now{
+    margin-bottom: 450px;
+    
+    height: 50px;
+    width: 150px;
+    font-size: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#tagline1{
+    margin-bottom:300px;
+    margin-right: 500px;
+    font-size: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#tagline2{
+    margin-bottom:180px;
+    margin-right: 700px;
+    font-size: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+#slide1-shop-button{
+
+  height: 70;
+  width: 200px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#slide1-button-body{
+    margin-right:800px;
+    margin-bottom: 130px;
+}
+
+#slide2-tag1{
+
+    margin-bottom: 320px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#slide2-tag2{
+
+    margin-bottom: 170px;
+    font-size: 140px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+#slide2-shop-button{
+
+    height: 70;
+    width: 200px;
+      font-size: 28px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+
+  #slide2-button-body{
+    
+    margin-bottom: 120px;
+    margin-right: 300px;
+}
+
+
+#slide2-price-tag{
+    
+    font-size: 58px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 105px;
+    margin-left: 300px;
+}
+
+
+/* carousel end */
